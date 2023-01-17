@@ -79,7 +79,7 @@ const Login = () => {
      </div>
      <input type="text"  placeholder='Username' name='userName' onChange={e=>handleChange(e)}   />
      <input type="password"  placeholder='Password' name='password' onChange={e=>handleChange(e)}   />
-     <button type='submit'>create account</button>
+     <button type='submit'>Sign In</button>
 
      <span>Don't have an account <Link to='/register'>Register</Link></span>
 
